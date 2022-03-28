@@ -350,8 +350,8 @@ ul{
     width: 50%;
     left: 15%;
   }
-  .adaptive_select_blocks .address{
-    margin-bottom: 100px;
+  .address .address_social{
+    margin-bottom: 50px;
   }
 }
 @media (max-width:425px){
