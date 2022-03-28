@@ -194,9 +194,9 @@ ul{
   object-fit: cover;
 
 }
-/* SWIPER END */
+                                  /* SWIPER END */
 
-/* BURGER-MENU */
+                                  /* BURGER-MENU */
 .burger_menu{
   position: absolute;
   right: 1rem;
@@ -298,17 +298,15 @@ ul{
 .adaptive_select_blocks .address .fa-facebook{
   margin: 0 15px;
 }
-/* BURGER-MENU */
+                                  /* BURGER-MENU-END */
 
+                                  /* ON-CLICK MENU */
+.adaptive-header.add{
+  right: 0;
+}
+                                  /* ON-CLICK MENU-START */
 
-/* ON-CLICK MENU */
-  .adaptive-header.add{
-    right: 0;
-  }
-
-/* ON-CLICK MENU */
-
-/* ADADPTIVE */
+                                  /* ADADPTIVE */
 @media (max-width:1267px) {
   .topnav{
     display: none;
@@ -383,4 +381,4 @@ ul{
     left: 15%;
   }
 }
-/* ADADPTIVE */
+                                  /* ADADPTIVE-END */
