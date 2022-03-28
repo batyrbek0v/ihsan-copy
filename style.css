@@ -276,6 +276,9 @@ ul{
   color: #044d2c;
   font-weight: 700;
 }
+.adaptive-header ul li a:hover{
+  color:#D5A022;
+}
 .adaptive_select_blocks .address{
   display: flex;
   align-items: center;
