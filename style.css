@@ -219,10 +219,10 @@ ul{
   flex-direction: column;
   justify-content: space-between;
   max-width: 300px;
-  height: 100vh;
+  height: 100%;
   right: -110%;
   top: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 9999;
   padding:20px 20px;
   transition: 0.5s;
@@ -349,6 +349,9 @@ ul{
   .swiper-slide::after{
     width: 50%;
     left: 15%;
+  }
+  .adaptive_select_blocks .address{
+    margin-bottom: 100px;
   }
 }
 @media (max-width:425px){
