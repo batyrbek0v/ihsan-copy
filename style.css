@@ -319,7 +319,7 @@ ul{
 .radio_block{
   width: 550px;
   min-height: 520px;
-  box-shadow: inset 0 0 0 2px #006754 ;
+  box-shadow: inset 0 0 0 2px #006754;
   padding: 2.5rem 2rem;
 }
 .radio_btn{
@@ -677,6 +677,9 @@ ul{
     width: 70%;
     top: 40%;
     left: 15%;
+  }
+  .radio_block{
+    box-shadow: inset 0 0 0 4px #006754;
   }
   .contribution_blocks{
     flex-wrap: wrap;
