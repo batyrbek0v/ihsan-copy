@@ -8,7 +8,7 @@ const $adaptiveMenu = document.querySelector('.adaptive-header')
 const btnclick2 = document.querySelector('.adaptive_nav_btn')
 // DOM-ELEMENTS
 
-// SWIPER
+            // SWIPER
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     navigation: {
@@ -21,6 +21,7 @@ var swiper = new Swiper(".mySwiper", {
     mousewheel: true,
     keyboard: true,
 });
+            // SWIPER
 
 ///////////
 function btnFunc() {
@@ -40,7 +41,7 @@ btnclick2.addEventListener('click', e => {
 
 
 window.addEventListener('scroll', () => {
-    if(scrollY > 40){
+    if(scrollY > 39){
         topNav.classList.add('fixtopnav')
         nav.classList.add('fixedNav')
     }else{
