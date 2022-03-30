@@ -722,5 +722,9 @@ ul{
     top: 60%;
     left: 15%;
   }
+  .radio_container{
+    justify-content: center;
+  }
+
 }
                                   /* ADADPTIVE-END */

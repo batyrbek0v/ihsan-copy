@@ -44,7 +44,7 @@ btnclick2.addEventListener('click', e => {
 
 $accardionbtn.addEventListener('click', e => {
     e.preventDefault()
-    alert("К сожалению это функция отстуствует!")
+    alert("К сожалению это функция отстуствует! ")
 })
 ///////////
 
