@@ -6,6 +6,11 @@ const $burgerMenu = document.querySelector('.burger_menu')
 const $close = document.querySelector('.close')
 const $adaptiveMenu = document.querySelector('.adaptive-header')
 const btnclick2 = document.querySelector('.adaptive_nav_btn')
+const $carBtn1 = document.querySelector('.car_btn1')
+const $carBtn2 = document.querySelector('.car_btn2')
+const $span = document.querySelector('.span')
+const $range = document.querySelector('.range')
+const $accardionbtn = document.querySelector('.accardion_btn')
 // DOM-ELEMENTS
 
             // SWIPER
@@ -36,6 +41,11 @@ btnclick2.addEventListener('click', e => {
     e.preventDefault()
     btnFunc()
 })
+
+$accardionbtn.addEventListener('click', e => {
+    e.preventDefault()
+    alert("К сожалению это функция отстуствует!")
+})
 ///////////
 
 
@@ -61,3 +71,17 @@ $close.addEventListener('click', e => {
     e.preventDefault()
     $adaptiveMenu.classList.remove('add')
 })
+
+$carBtn1.addEventListener('click' , () => {
+    $carBtn1.classList.remove('car1')
+    $carBtn2.classList.remove('car2')
+})
+
+$carBtn2.addEventListener('click', () => {
+    $carBtn1.classList.add('car1')
+    $carBtn2.classList.add('car2')
+})
+
+function goodsgoods(e){
+    $span.innerHTML = `${e.value} $`
+}

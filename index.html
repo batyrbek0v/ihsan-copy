@@ -119,11 +119,11 @@
                 <div class="radio_container">
                     <div class="radio_block">
                         <div class="radio_btn">
-                            <button>
+                            <button class="car_btn1">
                                 <i class="fa fa-home"></i>
                                 <span>Недвижимость</span>
                             </button>
-                            <button>
+                            <button class="car_btn2">
                                 <i class="fa fa-car"></i>
                                 <span>Автомобиль</span>
                             </button>
@@ -131,8 +131,8 @@
                         <div class="cost_flat">
                             <h2 class="text">Стоимость квартиры</h2>
                             <div class="range_flat">
-                                <span>10,000 $</span>
-                                <input type="range" class="range">
+                                <span class="span">10,000 $</span>
+                                <input type="range" value="10000" min="10000" max="45000" oninput="goodsgoods(this)" class="range">
                                 <div class="progress"></div>
                             </div>
                         </div>

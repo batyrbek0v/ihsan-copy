@@ -327,7 +327,7 @@ ul{
   display: flex;
   justify-content: space-between;
 }
-.radio_btn button{
+.radio_btn .car_btn1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -341,11 +341,29 @@ ul{
   padding: 0.75rem;
   cursor: pointer;
 }
-.radio_btn button:nth-child(2){
-  border: 2px solid #D5A022; 
+.radio_btn .car_btn2{
+  border: 2px solid #D5A022;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  font-size: 17px;
+  font-weight: 600;
+  color:#D5A022;
+  margin-right: 10px;
+  padding: 0.75rem;
+  cursor: pointer;
   margin-right: 0;
+}
+.car_btn1.car1{
   background-color: white;
   color: #D5A022;
+}
+.car_btn2.car2{
+  background-color: #D5A022;
+  color: white;
 }
 .radio_btn button span{
   margin-left: 10px;
@@ -498,6 +516,7 @@ ul{
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   border: 2px solid #D5A022;
+  background-color: white;
   color: #444D4A;
   outline: none;
 }
