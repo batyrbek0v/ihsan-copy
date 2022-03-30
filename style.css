@@ -723,6 +723,8 @@ ul{
     left: 15%;
   }
   .radio_container{
+    width: 90%;
+    padding: 5% 5%;
     justify-content: flex-end;
   }
 
